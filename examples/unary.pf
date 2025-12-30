@@ -1,0 +1,10 @@
+let x as 10;
+let y as -x;
+
+print("Original: ", x, "\n");
+
+print("Negated: ", y, "\n");
+
+let flag as true;
+print("!true = ");
+print(!flag, "\n");

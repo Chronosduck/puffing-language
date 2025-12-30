@@ -1,0 +1,15 @@
+let x as 0;
+
+print("Do-while loop (0 to 4):\n");
+do {
+    print(x, " ");
+    x++;
+} while x < 5;
+print("\n");
+
+? Test do-while executes at least once
+let y as 10;
+print("Do-while with false condition (runs once):\n");
+do {
+    print("Executed once!\n");
+} while y < 5;

@@ -1,0 +1,11 @@
+let pi as 3.14159265359;
+
+print("PI with 2 decimals: ");
+print(pi.2f, "\n");
+
+print("PI with 5 decimals: ");
+print(pi.5f, "\n");
+
+let x as 10;
+print("10 with 3 decimals: ");
+print(x.3f, "\n");

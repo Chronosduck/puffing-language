@@ -1,0 +1,8 @@
+let x as 10;
+let y as 20;
+
+print("10 = 20: ", x = y, "\n");
+print("10 < 20: ", x < y, "\n");
+print("10 > 20: ", x > y, "\n");
+print("10 <= 10: ", x <= x, "\n");
+print("20 >= 10: ", y >= x, "\n");

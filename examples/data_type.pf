@@ -1,0 +1,11 @@
+let num_int as 42;
+let num_float as 3.14;
+let text as "Hello, Puffing!";
+let flag as true;
+let flag2 as false;
+
+print("Integer: ", num_int, "\n");
+print("Float: ", num_float, "\n");
+print("String: ", text, "\n");
+print("Boolean true: ", flag, "\n");
+print("Boolean false: ", flag2, "\n");

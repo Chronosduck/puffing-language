@@ -1,0 +1,5 @@
+? Escape sequences in strings
+print("Line 1\nLine 2\n");
+print("Tab\there\n");
+print("Quote: \"Hello\"\n");
+print("Backslash: \\\n");

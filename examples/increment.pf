@@ -1,0 +1,15 @@
+let i as 5;
+
+print("Initial i = " , i, "\n");
+
+i++;
+print("After i++: ", i, "\n");
+
+++i;
+print("After ++i: ", i, "\n");
+
+i--;
+print("After i--: ", i, "\n");
+
+--i;
+print("After --i: ", i, "\n");

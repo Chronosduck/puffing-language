@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.pf]
+@="PuffingFile"
+
+[HKEY_CLASSES_ROOT\PuffingFile]
+@="Puffing Language File"
+
+[HKEY_CLASSES_ROOT\PuffingFile\DefaultIcon]
+@="C:\\Users\\ADMIN\\Desktop\\Puffing\\puffing.ico"
+
+[HKEY_CLASSES_ROOT\PuffingFile\shell\open\command]
+@="\"C:\\Users\\ADMIN\\Desktop\\Puffing\\bin\\puff.bat\" \"%1\""

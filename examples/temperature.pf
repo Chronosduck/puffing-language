@@ -1,0 +1,21 @@
+lib $math.main;
+
+lock CONVERSION_FACTOR as 1.8;
+lock OFFSET as 32.0;
+print("Enter temperature in Celsius: \n");
+let celsius as input(float);
+
+
+let fahrenheit as (celsius * CONVERSION_FACTOR) + OFFSET;
+print("Temperature in Fahrenheit: ", fahrenheit.2f);
+
+
+if (fahrenheit >= 100) {
+    print("\nIts very hot!");
+} elif (fahrenheit >= 70) {
+    print("\nIts warm");
+} elif (fahrenheit >= 32) {
+    print("\nIts cool");
+} else {
+    print("\nIts freezing");
+} 

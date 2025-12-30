@@ -1,0 +1,23 @@
+let test as 10;
+print("Initial test = ", test, "\n");
+
+
++5test;
+print("After +5x: ", test, "\n");
+
+-3test;
+print("After -3x: ", test, "\n");
+
+*2test;
+print("After *2x: ", test, "\n");
+
+/4test;
+print("After /4x: ", test, "\n");
+
+let y as 17;
+%5test;
+print("17 mod 5 = ", y, "\n");
+
+let z as 2;
+**3z;
+print("2 ** 3 = ", z, "\n");

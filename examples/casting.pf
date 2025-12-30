@@ -1,0 +1,19 @@
+let x as 3.14;
+let y as x(int);
+print("3.14 as int: ", y, "\n");
+
+let a as 42;
+let b as a(float);
+print("42 as float: ", b, "\n");
+
+let c as 100;
+let d as c(str);
+print("100 as string: ", d, "\n");
+
+let e as 0;
+let f as e(bool);
+print("0 as bool: ", f, "\n");
+
+let g as 1;
+let h as g(bool);
+print("1 as bool: ", h, "\n");

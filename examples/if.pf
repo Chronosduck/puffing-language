@@ -1,0 +1,11 @@
+let x as 15;
+
+if x > 10 {
+    print("x is greater than 10\n");
+}
+
+if x < 10 {
+    print("x is less than 10\n");
+} else {
+    print("x is not less than 10\n");
+}

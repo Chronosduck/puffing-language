@@ -1,0 +1,8 @@
+let a as 10;
+let b as 3;
+print("10 + 3 = ", a + b, "\n");
+print("10 - 3 = ", a - b, "\n");
+print("10 * 3 = ", a * b, "\n");
+print("10 / 3 = ", a / b, "\n");
+print("10 % 3 = ", a % b, "\n");
+print("10 ** 3 = ", a ** b, "\n");

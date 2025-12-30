@@ -1,0 +1,9 @@
+let first as "Hello";
+let second as "World";
+let result as first + " " + second;
+
+print(result, "\n");
+
+let name as "Alice";
+let greeting as "Hi, " + name + "!";
+print(greeting, "\n");

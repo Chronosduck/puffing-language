@@ -1,0 +1,29 @@
+lib $math.main;
+
+print("=== Factorial Calculator ===\n");
+
+let n as 5;
+let factorial as 1;
+let original as n;
+
+if n < 0 {
+    print("Error: Negative number!\n");
+} elif n = 0 {
+    print("0! = 1\n");
+} else {
+    for i in range(1, n + 1) {
+        *i factorial;
+    }
+    
+    print("Factorial of ", original, " = ", factorial, "\n");
+}
+
+? Test with loop
+print("\nFactorials 1-5:\n");
+for num in range(1, 6) {
+    let fact as 1;
+    for i in range(1, num + 1) {
+        *i fact;
+    }
+    print(num, "! = ", fact, "\n");
+}

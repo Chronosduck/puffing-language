@@ -1,0 +1,8 @@
+let x as 10;
+print("x = ", x, "\n");
+
+x as 20;
+print("x after reassignment = ", x, "\n");
+
+let name as "Alice";
+print("name = ", name, "!");

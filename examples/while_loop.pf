@@ -1,0 +1,8 @@
+let count as 0;
+
+print("While loop (0 to 4):\n");
+while count < 5 {
+    print(count, " ");
+    count++;
+}
+print("\n");

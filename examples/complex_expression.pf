@@ -1,0 +1,13 @@
+let a as 5;
+let b as 3;
+let c as 2;
+
+let result as (a + b) * c - (a / b);
+print("(5 + 3) * 2 - (5 / 3) = ");
+print(result, "\n");
+
+let x as 10;
+let y as 5;
+let z as ((x > y) and (y > 0)) or (x = 15);
+print("((10 > 5) and (5 > 0)) or (10 = 15) = ");
+print(z, "\n");

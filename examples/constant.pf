@@ -1,0 +1,5 @@
+lock PI as 3.14159;
+print("PI = ", PI, "\n");
+
+? Uncomment below to test error handling:
+? PI as 3.14;  ? Should cause error: Cannot reassign constant

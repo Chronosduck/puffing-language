@@ -1,0 +1,18 @@
+let a as true;
+let b as false;
+
+print("true and false: ");
+print(a and b, "\n");
+
+print("true or false: ");
+print(a or b, "\n");
+
+print("!true: ");
+print(!a, "\n");
+
+print("!false: ");
+print(!b, "\n");
+
+print("(10 > 5) and (3 < 8): ");
+print((10 > 5) and (3 < 8));
+print("\n");

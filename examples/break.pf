@@ -1,0 +1,19 @@
+print("Break at 5:\n");
+for i in range(10) {
+    if i = 5 {
+        break;
+    }
+    print(i, " ");
+}
+print("\n");
+
+print("While with break:\n");
+let count as 0;
+while true {
+    if count = 3 {
+        break;
+    }
+    print(count, " ");
+    count++;
+}
+print("\n");
